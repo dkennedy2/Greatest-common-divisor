@@ -9,10 +9,8 @@ public class greatestcommondivisorMain {
 		Scanner userinput;	
 		userinput=new Scanner(System.in);
 		GCD object = new GCD(); //Class
-		TheQueue queue = new TheQueue(); //Class
-	
-	double input = userinput.nextDouble();	
-	queue.insert(input);
+		
+		System.out.println("This program finds the greatest common denominator of two numbers.");
 		
 		try {
 			
