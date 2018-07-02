@@ -1,0 +1,11 @@
+
+public class MyException extends Exception {
+
+	public MyException (String message) {
+		super(message);
+	}
+
+	public MyException() {
+		// TODO Auto-generated constructor stub
+	}
+}
